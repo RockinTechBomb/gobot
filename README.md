@@ -1,1 +1,2 @@
 # gobot
+golang製のtwitterbotだよ♡
