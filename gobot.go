@@ -3,10 +3,7 @@ package main
 import (
 	"github.com/ChimeraCoder/anaconda"
 	"github.com/RockinTechBomb/gobot/config"
-)
-
-var (
-	api = nil
+	"github.com/RockinTechBomb/gobot/datas"
 )
 
 func main() {
@@ -14,4 +11,8 @@ func main() {
 	anaconda.SetConsumerKey(config.ConsumerKey())
 	anaconda.SetConsumerSecret(config.ConsumerSecret())
 	api := anaconda.NewTwitterApi(config.AccessToken(), config.AccessTokenSecret())
+	datas.SetData()
+	tweet := datas.Choice(datas.Tweets())
+	// tweet
+	api.PostTweet(tweet, nil)
 }
