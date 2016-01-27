@@ -4,6 +4,14 @@ This is twitterbot made with go
 
 ## Using
 
+Please create your twitter acount & getting  API keys
+
+Reference URL Links
+
+[English](http://www.amelt.net/en/iwm/programming-iwm/web-app-development/3241/)
+
+[Japanese](http://www.amelt.net/imc/programming/web-app/3215/)
+
 Fetch using `go get`
 
 ```
