@@ -16,11 +16,6 @@ Fetch using `go get`
 
 ```
 $ go get github.com/RockinTechBomb/gobot
-```
-
-Or clone this repository and install dependencies:
-
-```
 $ go get github.com/ChimeraCoder/anaconda
 ```
 
