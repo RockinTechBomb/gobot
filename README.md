@@ -19,7 +19,7 @@ $ go get github.com/RockinTechBomb/gobot
 $ go get github.com/ChimeraCoder/anaconda
 ```
 
-The following environment variables will need to be set with their obvious values:
+The following environment variables will need to be set with their obvious values
 
 ```
 src/github.com/RockinTechBomb/gobot/config/config.json
